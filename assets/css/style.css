@@ -81,8 +81,8 @@ h2 {
     
 }
 .project img {
-    width: 458px;
-    height: 355px;
+    width: 350px;
+    height: 250px;
 }
 .my-contact {
     font-size: 30px;
@@ -98,4 +98,34 @@ footer {
     background-color: brown;
     padding: 20px 10px 0;
     color: wheat;
+}
+/*Media query for smaller desktop*/
+
+@media screen and (max-width: 980px) {
+    header {
+        margin:auto;
+    }
+    header nav ul li {
+        padding-top: 25px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    
+    .my-contact {
+        font-size: 25px;
+    }
+
+}
+@media screen and (max-width: 768px){
+    .my-contact {
+        font-size: 20px;
+    }
+
+        
+}
+@media screen and (max-width: 575px) {
+    header nav ul li a {
+        font-size: 25px;
+    }
 }
